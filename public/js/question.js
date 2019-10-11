@@ -35,7 +35,7 @@ window.onload=()=>{
             headers: {'Authorization': `Bearer ${document.cookie}`},
            success:function(data){
             count = data.counter
-            if(count>=5){
+            if(count>=4){
                 location.href = '/scoreboardr1'
             }
         }
